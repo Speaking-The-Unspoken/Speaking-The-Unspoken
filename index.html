@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sacred Profanity: Faith, Hypocrisy, and Modern India</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Lato:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Lato&display=swap');
 
+        /* Simplified Body and Font Styles */
         body {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Lato', sans-serif; /* Content Font */
             background-color: #FDF2E3;
             color: #3D2B1F;
             line-height: 1.8;
@@ -20,98 +21,61 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        
+        /* Unified Heading Style */
+        h1, h2 {
+            font-family: 'Lora', serif; /* Heading Font */
+            color: #E88C3A;
+            text-align: center;
+            line-height: 1.4;
+        }
 
-        header h1 {
-            font-family: 'Lora', serif;
+        h1 {
             font-size: 3em;
-            text-align: center;
-            color: #3D2B1F;
             margin-bottom: 20px;
-        }
-
-        header p {
-            text-align: center;
-            font-style: italic;
-            font-size: 1.1em;
-            color: #6B4F3A;
-            margin-bottom: 40px;
-        }
-
-        .article-content {
-            text-align: left;
-        }
-
-        .intro-question {
-            text-align: center;
-            font-style: italic;
-            font-size: 1.3em;
-            color: #3D2B1F;
-            margin: 60px 0 0;
         }
 
         h2 {
-            font-family: 'Lora', serif;
-            color: #E88C3A;
-            text-align: center;
             font-size: 1.8em;
-            line-height: 1.4;
+            margin-top: 80px; /* Generous space to create section separation */
             margin-bottom: 30px;
         }
-        
-        .first-heading {
-             margin-top: 20px;
-        }
-        
-        .subsequent-heading {
-             margin-top: 60px;
-        }
 
+        /* Unified Content Style */
         p {
             margin-bottom: 20px;
+            text-align: left;
+        }
+
+        header p, .conclusion p, .final-question p, .authors p {
+            font-size: 1.1em;
+            text-align: center; /* Center-align specific concluding paragraphs */
         }
 
         .highlight {
             background-color: #E88C3A;
             color: #FFFFFF;
-            padding: 20px 30px;
+            padding: 30px 40px;
             border-radius: 8px;
             margin: 30px 0;
-            text-align: center;
+        }
+        
+        .highlight p {
+             text-align: center;
         }
 
         .highlight p:last-child {
             margin-bottom: 0;
         }
-
-        .section-divider {
-            border: 0;
-            height: 2px;
-            background-color: #E88C3A;
-            width: 100px;
-            margin: 70px auto;
-        }
         
-        /* The new creative conclusion style */
         .conclusion {
-            text-align: center;
-            font-style: italic;
-            font-size: 1.2em;
-            color: #6B4F3A;
-            margin: 70px auto;
-            padding: 30px 20px;
-            border-top: 2px solid #E88C3A;
-            border-bottom: 2px solid #E88C3A;
-            max-width: 90%;
+            margin-top: 80px;
         }
 
         .final-question {
-            text-align: center;
-            font-size: 1.2em;
-            font-weight: bold;
             margin-top: 50px;
-            clear: both;
-            padding-top: 20px;
             color: #E88C3A;
+            font-weight: bold;
         }
 
         .authors {
@@ -120,8 +84,6 @@
             margin-top: 60px;
             padding-top: 20px;
             border-top: 1px solid #E6DACE;
-            font-style: italic;
-            color: #6B4F3A;
         }
     </style>
 </head>
@@ -135,14 +97,11 @@
 
         <div class="article-content">
             <p>Yes, we wear branded clothes, quote Freud and Nietzsche and drink imported scotch while discussing the imperfectness around us. But one question still buzzes my mind – Have we really evolved or are we just better hypocrites?</p>
-            <p>Just like Gen-Z relationships, the answer is “Complicated”...</p>
-            <p>Nowadays, even breathing too loudly feels seditious.</p>
-            <p>But that isn't stopping us, our words may invite seditious action but do you know what doesn't?<b> The audacious nature of religion in our country.</b> The Ganges, one of the most “Holy” rivers despite its sacred status in the Hindu community, has been polluted to an horrifying extent.</p>
-            
-            <p class="intro-question">If a river as sacred as the Ganga can be polluted by its devotees to this extent, then where else do you think this religious hypocrisy extends to?</p>
+          <p>Just like Gen-Z relationships, the answer is <i>“Complicated”</i>...</p>
+            <p>Nowadays, even breathing too loudly feels seditious. But that isn't stopping us, our words may invite seditious action but do you know what doesn't? <b>The audacious nature of religion in our country.</b> The Ganges, one of the most “Holy” rivers despite its sacred status in the Hindu community, has been polluted to an horrifying extent. If a river as sacred as the Ganga can be polluted by its devotees to this extent, then where else do you think this religious hypocrisy extends to?</p>
 
             <section>
-                <h2 class="first-heading">Elections. That's the simple answer.</h2>
+                <h2>Elections. That's the simple answer.</h2>
                 <div class="highlight">
                     <p>We all know that every election cycle brings with it a wave of communal hatred. Conversations at 'chai tapris' suddenly revolve around the 'other' community. Ever hear a differing perspective? It's bound to end in violence. Social media, instead of bridging divides, strengthens illogical biases. Facts no longer matter; narratives do. News has turned into a soap opera designed to reinforce prejudices.</p>
                     <p>Religion is no longer just faith—it's a tool. Politicians shouting “unity” on stage slyly pit communities against each other to gain votes. Religion becomes an electoral strategy.</p>
@@ -150,64 +109,51 @@
                 </div>
             </section>
             
-            <hr class="section-divider">
-            
             <section>
-                <h2 class="subsequent-heading">And their Public Motto? - Vasudhaiva Kutumbakam</h2>
+                <h2>And their Public Motto? Vasudhaiva Kutumbakam</h2>
                 <div class="highlight">
                      <p>“Vasudhaiva Kutumbakam,” which literally means “The world is one family,” is a vital cornerstone of the belief systems together termed as Hinduism. Although it appears like a simple quotation, it goes further than what meets the eye in. It has been referred to in the Maha Upanishad and adopted as the motto for India's G20 presidency, used by many leaders (religious and political) to showcase their Altruistic nature. But here's the hypocrisy—Casteism. What started as an occupational classification in the Vedic age turned into a rigid hierarchy that discriminates by birth. What kind of family treats its own members as inferior?</p>
-                     <p>Even though that may not have been the original purpose of caste, in modern society, it is a tool for exclusion. Religions all around preach “Unity” and then divide themselves into different sects and socio-religious hierarchies that kick start disintegration or corruption of those very religions. <em><b><u>That is the greatest hypocrisy if you ask me.</u></b></em></p>
+                     <p>Even though that may not have been the original purpose of caste, in modern society, it is a tool for exclusion. Religions all around preach “Unity” and then divide themselves into different sects and socio-religious hierarchies that kick start disintegration or corruption of those very religions. <b><u>That is the greatest hypocrisy if you ask me.</u></b></p>
                 </div>
             </section>
             
-            <hr class="section-divider">
-            
             <section>
-                <h2 class="subsequent-heading">Here is a Bigger Hypocrisy - Love and Marriage</h2>
+                <h2>Here is a Bigger Hypocrisy - Love and Marriage</h2>
                 <p>Emily Brontë once said, “No fate can divide us.” In our society, it can.</p>
                 <p>Marriage, once a symbol of eternal love, is now a business deal and caste-based procurement system. Despite Articles 14 to 18 of our Constitution guaranteeing equality, interfaith marriages are treated as national threats by moral policing groups like Bajrang Dal. If the couple escapes legal trouble, societal exclusion awaits them.</p>
                 <p>How can two consenting adults be in love? Seems too progressive for some minds.</p>
             </section>
             
-            <hr class="section-divider">
-            
             <section>
-                <h2 class="subsequent-heading">Here is the Tea about Religious Progressiveness</h2>
+                <h2>Here is the Tea about Religious Progressiveness</h2>
                 <p>Many religions preach their principles as being “progressive” but here is the thing. Hindu society criticizes the Islamic practice of women wearing hijabs or burqas, but conveniently ignores its own purdah system. The hijab is seen as oppression, while a ghunghat is normalized—because the majority community follows it. Christianity isn't free from this either. While it preaches that both genders are created in the image of God, it too has a long history of manipulating women's freedom and bodily choices. Think of nuns. While many choose that life, history is filled with women who were forced into it.</p>
                 <p>Even Islam, in its scriptures, calls for modesty, humility, and self-control from both genders—but in practice, Muslim men often ignore these principles, leaving women to bear the burden. Misinterpretation and selective citation of texts allow hypocrisy to flourish in Islam. Progressiveness in religion is a myth - A Hypocritical Myth.</p>
             </section>
             
-            <hr class="section-divider">
-            
             <section>
-                <h2 class="subsequent-heading">A hypocritical Myth... Do You Mean Business?</h2>
+                <h2>A hypocritical Myth... Do You Mean Business?</h2>
                 <div class="highlight">
                     <p>Your surname can get you a loan faster than your pitch deck. Your religion can make or break your startup. In a world that values money above all else, this kind of discrimination not only undermines merit but also hurts the economy. So, why don't we care?</p>
                 </div>
             </section>
             
-            <hr class="section-divider">
-            
             <section>
-                <h2 class="subsequent-heading">And you know where else we don't show care? Cinema</h2>
+                <h2>And you know where else we don't show care? Cinema</h2>
                 <div class="highlight">
                     <p>Cinema is supposed to mirror the atrocities and bitter truths of society. However, in our case, it's a tool to fool the naïve. The actress wears clothes of a certain colour, you're sure to be boycotted. Depict the painful truth of our society, congratulations... you've become an Anti-National. It feels like copywriting the phrase "Hurting sentiments” will make me the next billionaire.</p>
                 </div>
             </section>
-            
-            <hr class="section-divider">
 
             <section>
-                <h2 class="subsequent-heading">Hurting Sentiments Reminds me of Instagram</h2>
+                <h2>Hurting Sentiments Reminds me of Instagram</h2>
                 <div class="highlight">
                     <p>We give ourselves a pat on the back for putting up a black square on an Instagram post we don't agree with. We celebrate ‘unity in diversity' and then silently avoid giving flats to someone name 'Mohammed', 'Joseph' or 'Das'.</p>
                 </div>
             </section>
         </div>
         
-        <!-- The new concluding paragraph -->
         <div class="conclusion">
-            <p>Having ranted for long, and in a country where even breathing can feel seditious, perhaps it is wise to save some rationality for the next article. To close, we find it fitting to call India a “Secular country with an Unsecular mindset.” The state may preach secularism, but it's people often practice the opposite.</p>
+            <p>Having ranted for long, and in a country where even breathing can feel seditious, perhaps it is wise to save some rationality for the next article. To close, we find it fitting to call India a “Secular country with an Unsecular mindset.” The state may preach secularism, but its people often practice the opposite.</p>
         </div>
 
         <div class="final-question">
